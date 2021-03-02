@@ -13,6 +13,7 @@ from discord.ext.commands.cooldowns import BucketType
 
 # Adding a client variable
 client = commands.Bot(command_prefix = '!')
+TOKEN = os.getenv("CLIENT_TOKEN")
 
 # Bot event: print when it goes live
 # Additionally: connecting to the database
@@ -70,4 +71,4 @@ async def meds(ctx):
 
 
 # Adding the token that belongs to the bot
-client.run(os.environ['CLIENT_TOKEN']) #Send me a request if you want the token
+client.run(TOKEN) #Send me a request if you want the token
