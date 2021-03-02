@@ -70,4 +70,4 @@ async def meds(ctx):
 
 
 # Adding the token that belongs to the bot
-client.run('ODE2MzQ3NTk5OTIwNjkzMzA4.YD5o8g.DpJa4vZZ_FiaJufxPaayzZImiBc') #Send me a request if you want the token
+client.run(os.environ['CLIENT_TOKEN']) #Send me a request if you want the token
