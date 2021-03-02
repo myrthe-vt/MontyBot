@@ -28,7 +28,7 @@ async def affirmation(ctx):
     messages = ["You are precious, loved and worthy!", "You are beautiful, inside and out!", "You have a positive impact on this world!", 
     "Just keep moving forward, you got this!", "You are a wonderful person who deserves everything this world has to offer!",
     "You are honestly amazing!", "You are one of the nicest people I've ever seen!", "Your heart is so big and beautiful!", 
-    "You mean a lot to me!", "You are strong and brave!", "You are so much stronger and braver than you think, lovely!",
+    "You mean a lot to me!", "You are strong and brave!", "You are so much stronger and braver than you think!",
     "You are spectacular!", "You are breathtaking!", "You are amazing!", "You are the bee's knees!", "You are legendary!",
     "You are sublime!", "I believe in you!", "I am so proud of you!", "You deserve love, compassion and empathy!", "You are enough!",
     "You matter!", "You are excellent!", "You are enough!", "You are worthy!", "You're doing your best!", "You deserve to be happy!",
@@ -37,32 +37,32 @@ async def affirmation(ctx):
 
 @client.command()
 async def pet(ctx):
-    message = "Thank you for the pets! Monty loves and appreciates the attention."
+    message = "Monty loves to be pet. More pets please."
     await ctx.send(message)
 
 @client.command()
 async def treat(ctx):
-    message = "Monty loves the treat!! He gives you a lick of appreciation."
+    message = "Monty loves treats. It is Monty's favourite thing, apart from Mama and Papa."
     await ctx.send(message)
 
 @client.command()
 async def scratch(ctx):
-    message = "Thank you for the belly scratches! Monty feels so loved!"
+    message = "oooh yeahh scratch ma belly"
     await ctx.send(message)
 
 @client.command()
 async def accountability(ctx):
-    message = "Monty gently reminds you to Do The Thing, woof!"
+    message = "Monty gently reminds you to Get It Done!"
     await ctx.send(message)
 
 @client.command()
 async def love(ctx):
-    message = "Monty lets you know that he loves you very much!!"
+    message = "Monty loves you...but only if you give him a kib"
     await ctx.send(message)
 
 @client.command()
 async def meds(ctx):
-    message = "Monty gently reminds you that it's time to take your meds! Don't forget to stay hydrated too!"
+    message = "Monty hates taking meds. Mama and Papa cover mine in Peanut Butter and they think I don't notice. Take yours! "
     await ctx.send(message)
 
 
