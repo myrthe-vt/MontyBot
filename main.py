@@ -37,12 +37,12 @@ async def affirmation(ctx):
 
 @client.command()
 async def pet(ctx):
-    message = "Thank you for the pets! Monty calms down with the attention."
+    message = "Thank you for the pets! Monty loves and appreciates the attention."
     await ctx.send(message)
 
 @client.command()
 async def treat(ctx):
-    message = "Monty loves the treat!! He gives you some licks of appreciation."
+    message = "Monty loves the treat!! He gives you a lick of appreciation."
     await ctx.send(message)
 
 @client.command()
