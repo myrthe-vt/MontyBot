@@ -1,2 +1,2 @@
 # MontyBot
-Little dog bot called Monty that lets you pet &amp; feed it and gives you friendly reminders
+Little dog bot called Monty that lets you pet, feed & scratch it and gives you friendly reminders.
